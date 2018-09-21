@@ -1,0 +1,41 @@
+1.
+
+STORE "resultan gaya" to 600
+STORE "percepatan benda" to 2
+STORE " resultan" without any value
+
+CALCULATE "resultan gaya" times "percepatan benda"
+SET "result" value calculation result
+
+DISPLAY "result"
+
+2.
+
+STORE "tahun" to 2018
+
+DISPLAY "tahun"
+CALCULATE "tahun" mod 4
+STORE "hasil1" to the result of calculation
+CALCULATE "tahun" mod 100
+STORE "hasil2" to the result of calculation
+CALCULATE "tahun" mod 400
+STORE "hasil3" to the result of calculation
+IF "hasil1" equals to 0 AND "hasil2" equals 0 >
+    DISPLAY "KABISAT"
+ELSE IF "hasil1" equals to 0 AND "hasil2" equals to 0 AND "hasil3" equals to 0 
+    DISPLAY "KABISAT"
+ELSE
+    DISPLAY "TIDAK KABISAT"
+
+3.
+
+STORE "baju" with 0
+
+WHILE "baju" < 5
+    ADD "baju" by 1
+
+DISPLAY "FINISH"
+
+4.
+
+
