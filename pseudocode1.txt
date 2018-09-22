@@ -31,11 +31,19 @@ ELSE
 
 STORE "baju" with 0
 
-WHILE "baju" < 5
+WHILE "baju" < 20
     ADD "baju" by 1
 
 DISPLAY "FINISH"
 
 4.
+
+STORE "murid" with 0
+WHILE "murid" < 40
+    ADD "murid" by 1
+IF "murid" equals to "kuku panjang"
+    DO "hukuman"
+ELSE
+    DO "pujian"
 
 
